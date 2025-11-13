@@ -31,8 +31,19 @@
 
 
 ### 2. Configure VM Instance
+- ** if you get error while cloning use below command
+sudo apt update -y
+sudo apt install git -y  #install git
+git --version
+
 
 - **Clone your GitHub repo**
+  # ** if you get error while cloning(git not recognize) use below command
+  ''' 
+  sudo apt update -y
+  sudo apt install git -y  #install git
+  git --version
+  '''
 
   ```bash
   git clone https://github.com/data-guru0/TESTING-9.git
